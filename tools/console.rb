@@ -16,11 +16,6 @@ customer4 = Customer.new("Jane", "Willis")
 customer5 = Customer.new("Don", "Johnson")
 customer6 = Customer.new("John", "Johnson")
 
-
-
-
-
-
 # Restaurants
 
 restaurant1 = Restaurant.new("Restaurant 1")
@@ -28,8 +23,6 @@ restaurant2 = Restaurant.new("Restaurant 2")
 restaurant3 = Restaurant.new("Restaurant 3")
 restaurant4 = Restaurant.new("Restaurant 4")
 restaurant5 = Restaurant.new("Restaurant 5")
-
-
 
 # Reviews (joiner)
 
