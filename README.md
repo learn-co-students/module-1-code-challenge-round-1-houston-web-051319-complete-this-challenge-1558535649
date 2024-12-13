@@ -41,17 +41,17 @@ rather than manually doing it in _every_ console session.
 
 **Basic methods**
 
-- `Customer.all`
+<!-- - `Customer.all`
 
-  - should return _all_ of the customer instances
+  - should return _all_ of the customer instances -->
 
-- `Restaurant.all`
+<!-- - `Restaurant.all`
 
-  - returns an **array** of _all_ restaurants
+  - returns an **array** of _all_ restaurants -->
 
-  `Review.all`
+  <!-- `Review.all`
 
-  - returns _all_ of the reviews
+  - returns _all_ of the reviews -->
 
 **Associations and Aggregate Methods**
 
@@ -70,8 +70,8 @@ rather than manually doing it in _every_ console session.
 
 **Customer**
 
-- `Customer#add_review(restaurant, content, rating)`
-  - Given the 3 arguments of a restaurant **object**, some review content (as a **string**), and a star rating (as a number, or more specifically, an **integer** between 1 and 5), this method creates a _new_ review and associates it with that customer and restaurant.
+<!-- - `Customer#add_review(restaurant, content, rating)`
+  - Given the 3 arguments of a restaurant **object**, some review content (as a **string**), and a star rating (as a number, or more specifically, an **integer** between 1 and 5), this method creates a _new_ review and associates it with that customer and restaurant. -->
 - `Customer#num_reviews`
   - Returns the _total number_ of reviews that a customer has written
 - `Customer#restaurants`
@@ -79,13 +79,13 @@ rather than manually doing it in _every_ console session.
 
 **Restaurant**
 
-- `Restaurant#customers`
+<!-- - `Restaurant#customers`
 
   - Returns a unique **array** of _all_ customers who have reviewed the given restaurant.
 
 - `Restaurant#reviews`
 
-  - Returns an **array** of _all_ reviews for the given restaurant
+  - Returns an **array** of _all_ reviews for the given restaurant -->
 
 - `Restaurant#average_star_rating`
 
@@ -110,5 +110,5 @@ rather than manually doing it in _every_ console session.
 **Restaurant**
 
 - `Restaurant.find_by_name(name)`
-  - Given a **string** of a restaurant‘s name, returns the _first_ restaurantthat matches
+  - Given a **string** of a restaurant‘s name, returns the _first_ restaurant that matches
 
